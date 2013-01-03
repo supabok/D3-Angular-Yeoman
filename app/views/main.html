@@ -1,0 +1,10 @@
+<!-- This partial contains D3 + sliders -->
+
+<!-- directive = snake case-->
+<graph gh-bind="d1"></graph>
+
+<div ng-repeat="i in d1" >
+    <input type="range" max="100" min="0" step="1" ng-model="i.v">
+    </input>
+    {{i.v}}
+</div>

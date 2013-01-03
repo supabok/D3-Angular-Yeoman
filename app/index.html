@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="angularD3App">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <title>AngularJS + D3</title>
+        <meta name="description" content=""/>
+        <meta name="viewport" content="width=device-width"/>
+        <link rel="stylesheet" href="styles/main.css"/>
+    </head>
+
+    <body ng-controller="AppCtrl">
+        <!-- page content -->
+        <div class="container" ng-view ></div>
+
+        <!-- scripts at bottom -->
+        <script src="scripts/vendor/angular.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/2.10.0/d3.v2.min.js"></script>
+        <!-- fallback for local if needed -->
+        <!-- build:js scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/directives/ghVisualization.js"></script>
+        <script src="scripts/controllers/AppController.js"></script>
+        <!-- endbuild -->
+    </body>
+</html>
