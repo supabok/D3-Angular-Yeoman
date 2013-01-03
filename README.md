@@ -1,5 +1,8 @@
-# Data-Driven Documents
+D3 + Angular + Yeoman
 
-**D3.js** is a JavaScript library for manipulating documents based on data. **D3** helps you bring data to life using HTML, SVG and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.
+A simple test app combining the build process(yeoman)
+the visual library(D3) and the framework(Angular).
 
-Want to learn more? [See the wiki.](/mbostock/d3/wiki)
+This project creates a basic directive that holds the visual aspect
+which is D3 plotting and HTML5 input sliders for controls
+and ties them together with Angular.
